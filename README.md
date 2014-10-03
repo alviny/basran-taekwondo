@@ -15,3 +15,10 @@ Synchronize to repository
 
 - git push origin 
 
+RVM Environment
+
+  rvm gemset list
+
+  Using 2.1.2 ruby with Rails 4.1.6
+
+  rvm use 2.1.2@rails416
