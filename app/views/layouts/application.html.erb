@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BasranTaekwondo</title>
+  <title><%= yield(:title) %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div>	
+<nav>
+	<ul>
+		<li><a href="/home">home</a></li>
+		<li><a href="/about">about</a></li>
+		<li><a href="/contact">contact</a></li>
+	</ul>
+</nav>
+</div>
+	
 <%= yield %>
 
 </body>

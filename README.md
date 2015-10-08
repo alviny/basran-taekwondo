@@ -19,6 +19,6 @@ RVM Environment
 
   rvm gemset list
 
-  Using 2.1.2 ruby with Rails 4.1.6
+  Using 2.1.2 ruby with Rails 4.2.4
 
-  rvm use 2.1.2@rails416
+  rvm use 2.1.2@rails424
